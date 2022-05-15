@@ -12,6 +12,12 @@ On a console terminal navigate into the `chat` folder and run the following:
 
 The services are accessible through the url `http://localhost:8080/api/` it will ask for a login with username `user` and the auto generated password, this is mostly due to time constraints I wasn't able to fully implement an oauth based security so it's using the default one. That will also describe the available APIs mostly one being a simple CRUD for users that will use the messaging features and one custom API for the actual messages in the app.
 
+To package a jar with the api run:
+
+```
+./mvnw clean package
+```
+
 
 ## Technologies applied
 
